@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(0deg 0% 5.88%);
+}
+
+.header {
+  background-color: hsl(0deg 0% 5.88%);
+  padding: 1rem;
+  gap: 5rem;
+  border-bottom: 0.5px solid rgb(72, 71, 70);
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+  font-weight: 600;
+}
+
+.logo-icon {
+  font-size: 1.5rem;
+  color: hsl(216.74deg 90.82% 61.57%);
+}
+
+.name-node,
+.name-share {
+  font-size: 1.9rem;
+}
+
+.name-node {
+  color: hsl(0deg 0% 93.73%);
+}
+
+.name-share {
+  color: hsl(216.74deg 90.82% 61.57%);
+}
+
+.login-btn {
+  padding: 0.4rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 7px;
+  background-color: hsl(231.76deg 50% 60%);
+  color: white;
+  border: none;
+}
