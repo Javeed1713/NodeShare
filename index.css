@@ -8,11 +8,11 @@
 body {
   width: 100vw;
   height: 100vh;
-  background-color: hsl(0deg 0% 5.88%);
+  background-color: hsl(223.64deg 25.58% 8.43%);
 }
 
 .header {
-  background-color: hsl(0deg 0% 5.88%);
+  background-color: hsl(222deg 23.81% 8.24%);
   padding: 1rem;
   gap: 5rem;
   border-bottom: 0.5px solid rgb(72, 71, 70);
@@ -56,4 +56,27 @@ body {
   background-color: hsl(231.76deg 50% 60%);
   color: white;
   border: none;
+}
+
+.mainBody {
+  color: white;
+}
+.messageShare {
+  height: 2.5rem;
+  width: 15rem;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 99px;
+  margin: auto;
+
+}
+
+.headContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  padding: 80px 16px;
 }
