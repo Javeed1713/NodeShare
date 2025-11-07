@@ -83,6 +83,19 @@ body {
     background-color: #967ee7;
 }
 
+.hamburger-bar {
+  background-color: white;
+  transition: background-color 0.3s ease;
+}
+
+@media (prefers-color-scheme: dark) {
+  .hamburger-bar {
+    background-color: white;
+  }
+}
+
+
+
 .mainBody {
   color: white;
 }
@@ -307,7 +320,7 @@ ul {
   font-size: 1.3rem;
 }
 
-:hover.fa-solid {
+:hover.footerSvg-icon {
     color: #7450eb;
 }
 
