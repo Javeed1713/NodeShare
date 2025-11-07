@@ -49,6 +49,25 @@ body {
 .name-share {
   color: hsl(216.74deg 90.82% 61.57%);
 }
+.nav{
+  display: flex;
+  gap:2.35rem;
+  font-size: 1.01rem;
+  font-weight: 700;
+  /* color: white; */
+}
+.nav a{
+  color: #b3b3b3;
+}
+
+.nav a:hover{
+  color: white;
+  transform: scale(1.04);
+}
+
+#search-icon{
+  margin-right: 0.5rem;
+}
 
 .login-btn {
   padding: 0.4rem 1.5rem;
