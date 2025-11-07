@@ -60,6 +60,10 @@ body {
   border: none;
 }
 
+:hover.login-btn {
+    background-color: #967ee7;
+}
+
 .mainBody {
   color: white;
 }
@@ -147,11 +151,17 @@ body {
   color: white;
   font-weight: 700;
 }
-#button2 {
+
+.button1 {
+  background-color: hsl(253.94deg 79.49% 61.76%);
+}
+
+.button2 {
   background-color: hsl(220 25% 8%);
 }
-#button1 {
-  background-color: hsl(253.94deg 79.49% 61.76%);
+
+:hover.button2 {
+    background-color: #7450eb;
 }
 
 .gridSection {
@@ -178,7 +188,15 @@ body {
   padding: 1.5rem;
   border-radius: 1.2rem;
   background-color: hsl(222 30% 12%);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.cards:hover{
+    transform: scale(1.05);
+    box-shadow: 2px 4px 8px white;
+    border: 1px solid #7450eb;
+}
+
 .cardSvg {
   margin-bottom: 1rem;
   color: #8852e0;
@@ -231,6 +249,10 @@ ul {
   margin-top: 0.5rem;
 }
 
+:hover.anch-hover{
+    color: white;
+    text-decoration: underline;
+}
 #footer-logo-text {
   color: #94a3b8;
   margin-top: 1rem;
@@ -264,6 +286,10 @@ ul {
   display: flex;
   gap: 1.5rem;
   font-size: 1.3rem;
+}
+
+:hover.fa-solid {
+    color: #7450eb;
 }
 
 .footerLogo a {
