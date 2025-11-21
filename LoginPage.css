@@ -38,12 +38,12 @@ body {
 }
 .logo-icon {
   font-size: 1.5rem;
-  color: hsl(0, 0%, 99%);
+  color: rgb(92 78 247);
   margin-right: 0.8rem;
   margin-top: 0.4rem;
 }
 .nodeshare-h1 {
-  color: white;
+  color: rgb(92 78 247);
 }
 
 .para-wrapper p {
