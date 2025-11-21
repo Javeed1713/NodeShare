@@ -1,63 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="LoginPage.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="LoginPage.css" />
     <title>Document</title>
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
     <div class="sign-inup-container">
+      <div class="sign-inup-section">
+        <div class="title-cont">
+          <span class="logo-icon">
+            <i class="fa-solid fa-code"></i>
+          </span>
 
-        <div class="sign-inup-section">
-
-            <div>
-                <h1 class="nodeshare-h1">NodeShare</h1>
-            </div>
-
-            <div class="para-wrapper">
-                <p>Share your code with the world</p>
-            </div>
-
-            <div class="sigin-up-card">
-
-                <div class="welcome-wrapper">
-                    <h2 class="welcome-h2">Welcome</h2>
-                    <p>Sign in to your account or create a new one</p>
-                </div>
-
-                <div class="sigin-up-btn-div">
-                    <button class="switch-btns switch-signin">Sign In</button>
-                    <button class="switch-btns switch-signup">Sign Up</button>
-                </div>
-
-                <div class="input-wrapper" id="username-wrapper">
-                    <p class="input-field-name">Username</p>
-                    <input type="text" placeholder="username" class="input-fields">
-                </div>
-
-                <div class="input-wrapper" id="email-wrapper">
-                    <p class="input-field-name">Email</p>
-                    <input type="text" placeholder="email" class="input-fields">
-                </div>
-
-                <div class="input-wrapper" id="password-wrapper">
-                    <p class="input-field-name">Password</p>
-                    <input type="text" placeholder="........" class="input-fields">
-                </div>
-
-                <div>
-                    <button class="signin-btn" onclick="goToHome()">Sign in</button>
-                </div>
-
-                <div>
-                    <button class="signup-btn">Sign Up</button>
-                </div>
-
-            </div>
-
+          <h1 class="nodeshare-h1">NodeShare</h1>
         </div>
 
+        <div class="para-wrapper">
+          <p>Share your code with the world</p>
+        </div>
+
+        <div class="sigin-up-card">
+          <div class="welcome-wrapper">
+            <h2 class="welcome-h2">Welcome</h2>
+            <p>Sign in to your account or create a new one</p>
+          </div>
+
+          <div class="sigin-up-btn-div">
+            <button class="switch-btns switch-signin">Sign In</button>
+            <button class="switch-btns switch-signup">Sign Up</button>
+          </div>
+
+          <div class="input-wrapper" id="username-wrapper">
+            <p class="input-field-name">Username</p>
+            <input type="text" placeholder="username" class="input-fields" />
+          </div>
+
+          <div class="input-wrapper" id="email-wrapper">
+            <p class="input-field-name">Email</p>
+            <input type="text" placeholder="email" class="input-fields" />
+          </div>
+
+          <div class="input-wrapper" id="password-wrapper">
+            <p class="input-field-name">Password</p>
+            <input type="text" placeholder="........" class="input-fields" />
+          </div>
+
+          <div>
+            <button class="signin-btn" onclick="goToHome()">Sign in</button>
+          </div>
+
+          <div>
+            <button class="signup-btn">Sign Up</button>
+          </div>
+        </div>
+      </div>
     </div>
 
     <script>
@@ -66,5 +68,5 @@
       }
     </script>
     <script src="index.js"></script>
-</body>
+  </body>
 </html>

@@ -94,8 +94,6 @@ body {
   }
 }
 
-
-
 .mainBody {
   color: white;
 }
@@ -322,8 +320,9 @@ ul {
 
 :hover.fa-solid {
   color: #7450eb;
-:hover.footerSvg-icon {
+  :hover.footerSvg-icon {
     color: #7450eb;
+  }
 }
 
 .footerLogo a {

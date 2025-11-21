@@ -1,152 +1,159 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body{
-    height: 100vh;
-    width: 100vw;
+body {
+  height: 100vh;
+  width: 100vw;
 }
 
 .sign-inup-container {
-    height: 100%;
-    width: 100%;
-    background-color: #090909;
+  height: 100%;
+  width: 100%;
+  background-color: #090909;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sign-inup-section {
-    background-color: #090909;
-    padding: 1rem;
-    height: 70%;
-    width: 35%;
+  background-color: #090909;
+  padding: 1rem;
+  height: 70%;
+  width: 35%;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
 }
-
+.title-cont {
+  display: flex;
+  flex-direction: row;
+}
+.logo-icon {
+  font-size: 1.5rem;
+  color: hsl(0, 0%, 99%);
+  margin-right: 0.8rem;
+  margin-top: 0.4rem;
+}
 .nodeshare-h1 {
-    color: white;
+  color: white;
 }
 
-.para-wrapper p{
-    color: #b3b3b3;
+.para-wrapper p {
+  color: #b3b3b3;
 }
 
 .sigin-up-card {
-    height: 100%;
-    width: 100%;
-    border: 1.7px solid hsl(217 33% 20%);
-    border-radius: 15px;
-    background-color: #121212;
-    padding: 1.5rem;
+  height: 100%;
+  width: 100%;
+  border: 1.7px solid hsl(217 33% 20%);
+  border-radius: 15px;
+  background-color: #121212;
+  padding: 1.5rem;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .welcome-wrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
 .welcome-h2 {
-    color: whitesmoke;
-    font-size: 1.65rem;
+  color: whitesmoke;
+  font-size: 1.65rem;
 }
 
-.welcome-wrapper p{
-    color: #b3b3b3;
+.welcome-wrapper p {
+  color: #b3b3b3;
 }
 
-.sigin-up-btn-div{
-    background-color: #1f1f1f;
-    padding: 0.3rem;
-    border-radius: 7px;
+.sigin-up-btn-div {
+  background-color: #1f1f1f;
+  padding: 0.3rem;
+  border-radius: 7px;
 
-    display: flex;
-    gap: 1px;
+  display: flex;
+  gap: 1px;
 }
 
 .switch-btns {
-    font-weight: bold;
-    color: white;
-    width: 50%;
-    border: none;
-    padding: 0.5rem 0rem;
-    border-radius: 10px;
-    padding: 0.6rem 0rem;
+  font-weight: bold;
+  color: white;
+  width: 50%;
+  border: none;
+  padding: 0.5rem 0rem;
+  border-radius: 10px;
+  padding: 0.6rem 0rem;
 }
 
 .switch-signin {
-    background-color: #0f1319;
+  background-color: #0f1319;
 }
 
 .switch-signup {
-    background-color: #1f1f1f;
-    color: #b3b3b3;
+  background-color: #1f1f1f;
+  color: #b3b3b3;
 }
 
-#username-wrapper{
-    display: none;
+#username-wrapper {
+  display: none;
 }
-
 
 .input-wrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
 }
 
 .input-field-name {
-    color: white;
+  color: white;
 }
 
 .input-fields {
-    height: 40px;
-    background-color: hsl(222 30% 12%);
-    border: 1px solid hsl(217 33% 20%);
-    border-radius: 4px;
+  height: 40px;
+  background-color: hsl(222 30% 12%);
+  border: 1px solid hsl(217 33% 20%);
+  border-radius: 4px;
 
-    padding: 0.5rem 0.75rem;
-    color: wheat;
-    outline: none;
+  padding: 0.5rem 0.75rem;
+  color: wheat;
+  outline: none;
 
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .input-fields:focus {
-    transform: scale(1.05);
-    box-shadow: 0px 0px 4px white;
-    border: 1px solid #7450eb;
+  transform: scale(1.05);
+  box-shadow: 0px 0px 4px white;
+  border: 1px solid #7450eb;
 }
 
+.signin-btn,
+.signup-btn {
+  font-weight: bold;
+  width: 100%;
+  color: white;
+  background-color: hsl(243.86deg 93.44% 64.12%);
+  border: none;
+  padding: 0.7rem 0rem;
+  border-radius: 7px;
 
-
-.signin-btn, .signup-btn {
-    font-weight: bold;
-    width: 100%;
-    color: white;
-    background-color: hsl(243.86deg 93.44% 64.12%);
-    border: none;
-    padding: 0.7rem 0rem;
-    border-radius: 7px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .signup-btn {
-    display: none;
+  display: none;
 }
