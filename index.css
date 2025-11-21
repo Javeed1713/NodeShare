@@ -49,23 +49,23 @@ body {
 .name-share {
   color: hsl(216.74deg 90.82% 61.57%);
 }
-.nav{
+.nav {
   display: flex;
-  gap:2.35rem;
+  gap: 2.35rem;
   font-size: 1.01rem;
   font-weight: 700;
   /* color: white; */
 }
-.nav a{
+.nav a {
   color: #b3b3b3;
 }
 
-.nav a:hover{
+.nav a:hover {
   color: white;
   transform: scale(1.04);
 }
 
-#search-icon{
+#search-icon {
   margin-right: 0.5rem;
 }
 
@@ -80,7 +80,7 @@ body {
 }
 
 :hover.login-btn {
-    background-color: #967ee7;
+  background-color: #967ee7;
 }
 
 .mainBody {
@@ -180,7 +180,7 @@ body {
 }
 
 :hover.button2 {
-    background-color: #7450eb;
+  background-color: #7450eb;
 }
 
 .gridSection {
@@ -210,10 +210,10 @@ body {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.cards:hover{
-    transform: scale(1.05);
-    box-shadow: 2px 4px 8px white;
-    border: 1px solid #7450eb;
+.cards:hover {
+  transform: scale(1.05);
+  box-shadow: 2px 4px 8px white;
+  border: 1px solid #7450eb;
 }
 
 .cardSvg {
@@ -268,9 +268,9 @@ ul {
   margin-top: 0.5rem;
 }
 
-:hover.anch-hover{
-    color: white;
-    text-decoration: underline;
+:hover.anch-hover {
+  color: white;
+  text-decoration: underline;
 }
 #footer-logo-text {
   color: #94a3b8;
@@ -308,7 +308,7 @@ ul {
 }
 
 :hover.fa-solid {
-    color: #7450eb;
+  color: #7450eb;
 }
 
 .footerLogo a {
