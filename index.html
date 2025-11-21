@@ -35,11 +35,15 @@
             ><i class="fa-solid fa-magnifying-glass"></i></span
           >Search
         </a>
+        <a href="" class="nav-link"><span id="search-icon"><i class="fa-solid fa-magnifying-glass"></i></span>Search </a>
       </div>
 
       <div login-btn-div>
-        <button class="login-btn">Log in</button>
+        <button class="login-btn" onclick="goToLogin()">Log in</button>
       </div>
+      
+      <span class="hamburger"><i class="fa-solid fa-bars"></i></span>
+
     </div>
     <!-- BODY STARTS -->
     <section class="mainBody">
@@ -141,11 +145,18 @@
           © 2025 CodeShare. Built for developers, by developers
         </p>
         <div class="footerSvg">
-          <i class="fa-solid fa-share-nodes"></i>
-          <i class="fa-solid fa-code"></i>
-          <i class="fa-solid fa-bolt"></i>
+          <i class="fa-solid footerSvg-icon fa-share-nodes"></i>
+          <i class="fa-solid footerSvg-icon fa-code"></i>
+          <i class="fa-solid footerSvg-icon fa-bolt"></i>
         </div>
       </div>
     </section>
+
+    <script>
+      function goToLogin() {
+        window.location.href = "LoginPage.html";
+      }
+    </script>
+    <script src="index.js"></script>
   </body>
 </html>

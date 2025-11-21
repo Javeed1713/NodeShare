@@ -83,6 +83,19 @@ body {
   background-color: #967ee7;
 }
 
+.hamburger-bar {
+  background-color: white;
+  transition: background-color 0.3s ease;
+}
+
+@media (prefers-color-scheme: dark) {
+  .hamburger-bar {
+    background-color: white;
+  }
+}
+
+
+
 .mainBody {
   color: white;
 }
@@ -309,6 +322,8 @@ ul {
 
 :hover.fa-solid {
   color: #7450eb;
+:hover.footerSvg-icon {
+    color: #7450eb;
 }
 
 .footerLogo a {
